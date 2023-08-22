@@ -29,14 +29,14 @@ class ApiGatewayConfig {
             .build()
     }
 
-    @Bean
-    fun securityFilterChain(http: HttpSecurity): SecurityWebFilterChain? {
-        http
-            .authorizeExchange()
-            .pathMatchers("/example/**").authenticated()
-            .anyExchange().permitAll()
-            .and()
-            .httpBasic()
-        return http.build()
-    }
+//    @Bean
+//    fun securityFilterChain(http: HttpSecurity): SecurityWebFilterChain? {
+//        http
+//            .authorizeExchange()
+//            .pathMatchers("/example/**").authenticated()
+//            .anyExchange().permitAll()
+//            .and()
+//            .httpBasic()
+//        return http.build()
+//    }
 }
