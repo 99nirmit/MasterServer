@@ -1,7 +1,6 @@
 package com.example.apigateway.domain
 
 import jakarta.persistence.*
-import jakarta.validation.constraints.Email
 
 @Entity
 @Table
